@@ -1,0 +1,287 @@
+.top{
+  position: sticky;
+  top: 0;
+  background-color: #abe7fb;
+  text-align: center;
+  display: flex;
+  z-index: 999;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  
+}
+
+.topleft{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.topright{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topcenter{
+  flex: 6;
+}
+
+.topimg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+
+.topicon{
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.toplist{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.toplistitem{
+  margin-right: 20px;
+  margin-top: 13px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+.topsearchicon{
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/* top over  */
+
+
+.head{
+  margin-top: 0px;
+}
+
+.headtitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#444;
+  font-style: italic;
+}
+
+.titlea{
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.titleb{
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+
+.headimg{
+  width: 100%;
+  height: 550px;
+  
+  object-fit: cover;
+}
+
+/* head section over */
+
+.boo{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.sidebar{
+  flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.sideitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidetitle{
+  margin: 10px;
+  padding: 5px;
+  
+  border-top: 2px solid #a7a4a4;
+  border-bottom: 2px solid #a7a4a4; 
+  font-size: 15px;
+  color: #222;
+  font-weight: 600;
+  line-height: 20px;
+  align-items: center;
+  
+}
+
+.sideitem > img{
+  margin-top: 15px;
+}
+
+.sideitem > p{
+  padding: 30px;
+  line-height: 25px;
+  letter-spacing: .5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidelist{
+  list-style: none;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidelistitem{
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidesocial{
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideicon{
+  font-size: 25px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* side finish */
+
+.posts{
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+  
+}
+
+
+.subpost{
+  width: 375px;
+   margin: 0px 25px 40px 25px;
+  
+  
+}
+
+.postimg{
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  
+}
+
+.postinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postcats{
+  font-size: 15px;
+  color: #be9656;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.posttitle{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.postdate{
+  font-style: italic;
+  font-size: 13px;
+  color: #999;
+  
+}
+
+.postdisc{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #444;
+  line-height: 24px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  text-align: center;
+}
+
+
+.whatsapp{
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  padding: 70px;
+  color: green;
+}
+
+
+.call{
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  padding: 0px 80px 170px 90px;
+  color: blue;
+  font-size: 66px;
+}
+
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b3e9fb;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
