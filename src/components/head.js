@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import Blog from './Images/blog.webp'
+import Blog from '../Images/blog.webp'
 
 export default function Head() {
   return (
